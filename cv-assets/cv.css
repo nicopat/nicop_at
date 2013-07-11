@@ -1,0 +1,67 @@
+﻿html{overflow-y:scroll;}
+
+@font-face {
+	font-family: "MuseoSans";
+	src:url(font/museosans-300-webfont.eot);
+	src:url(font/museosans-300-webfont.eot?#iefix)
+	format('embedded-opentype'),url(font/museosans-300-webfont.woff)
+	format('woff'),url(font/museosans-300-webfont.ttf)
+	format('truetype'),url(font/museosans-300-webfont.svg#MuseoSans300)
+	format('svg');
+  }
+
+body {
+	font-size:12px;
+	color:#2E2E2E;
+	background-color:#ffffff;
+	margin: 10px;
+	padding: 10px;
+}
+
+body,p,h1,h2,h3,h4,table,td,th,ul,ol,textarea,input {
+	font-family:MuseoSans,helvetica,arial,sans-serif;
+	text-align:justify;
+	text-justify:distribute;
+}
+
+h1 {font-size:190%;margin-top:0px;margin-bottom:-11px;font-weight:normal}
+h2 {font-size:180%;margin-top:0px;margin-bottom:-10px;font-weight:normal;color:#959595}
+h3 {font-size:120%;margin-top:18px;font-weight:normal;color:#2267A9}
+h4 {font-size:105%;margin-top:0px;margin-bottom:4px;font-weight:normal}
+h5 {font-size:100%;margin-top:0px;margin-bottom:4px;font-weight:normal}
+
+h1,h2,h3,h4,h5,h6, a:link, a:visited, a:hover,a:active{
+	background-color:transparent;
+}
+
+.technology {
+	color: #dcdcdc;
+}
+
+#links {
+	position:absolute;
+	top:20px;
+	right:20px;
+	vertical-align: middle;
+}
+
+hr {
+	background-color:#d4d4d4;
+	color:#d4d4d4;
+	border-color: #d4d4d4;
+	border-style: solid;
+	border-width: 2px 0 0;
+	clear: both;
+	margin: 0 0 0px;
+	height: 0;
+}
+
+a:link, a:visited, a:hover,a:activea:link {color:#E92D36;}
+a:visited {color:#F56A71;}
+a:hover,a:active {color:#C0262E;}
+
+@media print {
+	a:link, a:visited, a:hover,a:active {text-decoration: none;}
+	#links { visibility: hidden;}
+}
+
